@@ -1,0 +1,181 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+/* -----------------------NAV BAR------------------- */
+.navbar {
+  padding-top: 5%;
+  padding-right: 3%;
+  padding-left: 50%;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: black !important;
+  margin: 0;
+}
+
+.nav-link:hover {
+  color: #ffdb58 !important;
+
+}
+
+.dropdown-item:active {
+  background-color: #ffdb58;
+}
+/* -----------------------HOME PAGE----------------------- */
+#home hr {
+  border-top: 10px solid black;
+  width: 50%;
+}
+
+#home {
+  padding: 8% 15%;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  color: #ffdb58;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.outside-squares1 {
+  position: absolute;
+  width: 20%;
+  left: 0;
+}
+
+.outside-squares2 {
+  width: 20%;
+  right: 0;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+#goal {
+  text-align: center;
+  padding: 10% 5%;
+  line-height: 2;
+}
+
+.goal-title {
+  font-weight: 900;
+}
+.target-image {
+width: 50%;
+}
+
+#contact {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.contact-right {
+  background-color: #ffdb58;
+  width: 50%;
+  height: 100%;
+  padding: 90px 70px;
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+
+}
+
+.contact-info {
+  display: inline-block !important;
+  background-color: #fff;
+  width: 46%;
+  text-align: center;
+  margin-left: 3%;
+}
+
+.contact-info hr {
+border-top: 10px solid black;
+width: 70%;
+}
+
+.male-icon, .female-icon {
+  width: 40%;
+}
+
+.contact-title {
+  font-weight: 900;
+}
+
+.email {
+  font-weight: 600;
+}
+/* --------------------ABOUT PAGE------------------------- */
+
+#about {
+  background-color: #ffdb58;
+  padding: 8% 20%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#about h1{
+  font-weight: 900;
+}
+
+#about p {
+  border-top: 5px solid #000;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+/* ------------------------EDUCATE PAGE-------------------- */
+
+#options {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.media-icon {
+  width: 25%;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+/* ------------------------BOOKS PAGE------------------------ */
+#books{
+  text-align: center;
+}
+
+.container {
+
+}
+
+.card {
+  box-shadow: 0 0 10px;
+}
+
+.card-body {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.card-body h5 {
+font-size: 1rem;
+font-weight: 700;
+padding: 0;
+}
+
+.card-body p {
+  padding: 0;
+}
+
+.book-image {
+  width: 75%;
+  padding-top: 20px;
+  margin: auto;
+}
