@@ -1,0 +1,484 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* -----------------------NAV BAR------------------- */
+.navbar {
+  padding-top: 5%;
+  padding-right: 3%;
+  padding-left: 50%;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar {
+    padding-left: 1%;
+  }
+}
+
+.nav-item {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: black !important;
+  margin: 0;
+}
+
+.nav-link:hover {
+  color: #ffdb58 !important;
+}
+
+@media screen and (max-width: 1283px) {
+  .nav-item {
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1031px) {
+  .nav-item {
+    margin-left: 5px;
+    font-size: .75rem;
+  }
+}
+
+.dropdown-item:active {
+  background-color: #ffdb58;
+}
+
+/* -----------------------HOME PAGE----------------------- */
+#home hr {
+  border-top: 10px solid black;
+  width: 50%;
+}
+
+@media screen and (max-width: 1215px) {
+  #home hr {
+    border-top: 5px solid black;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  #home hr {
+    border-top: 2px solid black;
+  }
+}
+
+#home {
+  padding: 8% 15%;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  color: #ffdb58;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.sub-title {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1453px) {
+  .title {
+    font-size: 4rem;
+  }
+
+  .sub-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 729px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  }
+}
+
+.outside-squares1 {
+  position: absolute;
+  width: 20%;
+  left: 0;
+}
+
+.outside-squares2 {
+  width: 20%;
+  right: 0;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+#names {
+  margin-top: 100px;
+  height: 750px;
+}
+
+#boxes {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#leftbox {
+  float: left;
+  width: 19%;
+  height: 500px;
+  line-height: 1.50;
+}
+
+#middlebox {
+  margin-left: 2px;
+  float: left;
+  width: 60%;
+  height: 500px;
+}
+
+#rightbox {
+  float: right;
+  width: 20%;
+  height: 500px;
+  line-height: 1.50;
+}
+
+.children {
+  /* border: black 1px solid; */
+  text-align: center;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.middle-children {
+  width: 100%;
+}
+
+#heading {
+  font-size: 40px;
+  color: #ffdb58;
+  font-weight: 900;
+}
+
+td {
+  /* border: 1px solid pink; */
+}
+
+tr {
+  width: 25%;
+}
+
+table {
+  width: 100%;
+}
+
+@media screen and (max-width: 1382px) {
+  #heading {
+    font-size: 38px;
+  }
+
+  .children {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1238px) {
+  #heading {
+    font-size: 34px;
+  }
+
+  .children {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1101px) {
+  #heading {
+    font-size: 30px;
+  }
+
+  .children {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 964px) {
+  #heading {
+    font-size: 22px;
+  }
+
+  .children {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  #heading {
+    font-size: 14px;
+  }
+
+  .children {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #heading {
+    font-size: 14px;
+  }
+
+  .children {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  #heading {
+    font-size: 10px;
+  }
+
+  .children {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  #heading {
+    font-size: 7.6px;
+  }
+
+  .children {
+    font-size: 6.8px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  #heading {
+    font-size: 6px;
+  }
+
+  .children {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #heading {
+    font-size: 6px;
+  }
+
+  .children {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  #heading {
+    font-size: 5px;
+  }
+
+  .children {
+    font-size: 4px;
+  }
+}
+
+#goal {
+  text-align: center;
+  padding: 10% 5% 15% 5%;
+  line-height: 2;
+}
+
+.goal-title {
+  font-weight: 900;
+}
+
+.goal-text {
+  font-size: 1rem;
+}
+
+.target-image {
+  width: 50%;
+}
+
+@media screen and (max-width: 767px) {
+  .target-image {
+    width: 25%;
+  }
+}
+
+#contact {
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.contact-right {
+  background-color: #ffdb58;
+  /* width: 40%; */
+  /* height: 100%; */
+  padding: 90px 70px;
+  /* display: inline-block; */
+  margin: 0;
+  text-align: center;
+}
+
+.contact-info {
+  /* display: inline-block !important; */
+  background-color: #fff;
+  /* width: 56%; */
+  text-align: center;
+  /* margin-left: 3%; */
+}
+
+.contact-info hr {
+  border-top: 10px solid black;
+  width: 70%;
+}
+
+@media screen and (max-width: 1162px) {
+  .contact-info hr {
+    border-top: 5px solid black;
+  }
+}
+
+.male-icon, .female-icon {
+  width: 40%;
+}
+
+.contact-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.feedback {
+  font-size: 1rem;
+}
+
+.email {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* @media screen and (max-width: 1365px) {
+  .contact-title {
+    font-weight: 900;
+    font-size: 2rem;
+  } */
+
+  .feedback {
+    font-size: 1rem;
+  }
+
+  .email {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+
+/* @media screen and (max-width: 1040px) {
+
+}
+
+@media screen and (max-width: 771px) {
+  .contact-title {
+    font-weight: 900;
+    font-size: 1rem;
+  }
+
+  .feedback {
+    font-size: .5rem;
+  }
+
+  .email {
+    font-weight: 600;
+    font-size: .5rem;
+  }
+} */
+
+/* --------------------ABOUT PAGE------------------------- */
+#about {
+  background-color: #ffdb58;
+  padding: 8% 20%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#about h1 {
+  font-weight: 900;
+}
+
+#about p {
+  border-top: 5px solid #000;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+/* ------------------------EDUCATE PAGE-------------------- */
+#options {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+.media-icon {
+  width: 25%;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+/* ------------------------BOOKS PAGE------------------------ */
+#books {
+  text-align: center;
+}
+
+.container {}
+
+.card {
+  box-shadow: 0 0 10px;
+}
+
+.card-body {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.card-body h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0;
+}
+
+.card-body p {
+  padding: 0;
+}
+
+.book-image {
+  width: 75%;
+  padding-top: 20px;
+  margin: auto;
+}
