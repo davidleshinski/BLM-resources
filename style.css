@@ -12,6 +12,10 @@ body {
   text-align: right;
 }
 
+.align-left {
+  text-align: left;
+}
+
 /* -----------------------NAV BAR------------------- */
 .navbar {
   padding-top: 5%;
@@ -64,7 +68,7 @@ body {
 
 /* -----------------------HOME PAGE----------------------- */
 #home hr {
-  border-top: 10px solid black;
+  border-top: 7px solid black;
   width: 50%;
 }
 
@@ -153,16 +157,19 @@ body {
   font-size: 3rem;
   color: #fff;
   font-weight: 900;
+  padding: 0;
+  margin: 0;
 }
 
 /* td {
   border: 1px solid pink;
 } */
-tr {
+
+.small-names-table tr {
   width: 25%;
 }
 
-table {
+.small-names-table {
   width: 100%;
 }
 
@@ -382,11 +389,25 @@ table {
   padding: 3% 2%;
 }
 
+.media-type a {
+  color: #000;
+  text-decoration: none;
+}
+
+.media-type a:hover {
+  color: #ffdb58;
+}
+
+.media-type h2 {
+  font-weight: 900;
+}
+
 .media-icon {
   width: 25%;
   margin-top: 150px;
   margin-bottom: 40px;
 }
+
 
 /* ------------------------BOOKS PAGE------------------------ */
 #books {
@@ -474,31 +495,65 @@ table {
 
 /* ---------------------ARTICLES PAGE--------------------- */
 #articles {
+  padding: 10% 4% 10% 10%;
   text-align: center;
-  padding: 10% 10%;
 }
 
 .articles-title {
+  margin-bottom: 200px;
+}
+
+.articles-title h1 {
   font-weight: 900;
-  margin-bottom: 100px;
 }
 
-.article-link {
-  margin-bottom: 20px;
-}
-
-.article-link h3 {
+#articles h3 {
   font-weight: bold;
 }
 
-.article-link a {
+#articles a {
   color: #000;
   text-decoration: none;
 }
 
-.article-link a:hover {
+#articles a:hover {
   color: #ffdb58;
 }
+
+#articles hr {
+  border-top: 1px solid #000;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.article-text span {
+color: rgba(117, 117, 117, 1);
+font-weight: normal;
+font-size: 1rem;
+}
+
+.article-image {
+ width: 50%;
+ box-shadow: 0 0 5px;
+}
+
+#articles .col-lg-7 {
+  margin-bottom: 100px;
+}
+
+#articles .col-md-7 {
+  margin-bottom: 100px;
+}
+
+#articles .col-lg-5 {
+  margin-bottom: 100px;
+}
+
+#articles .col-md-5 {
+  margin-bottom: 100px;
+}
+
 
 /* -----------------------VIDEOS PAGE------------------------- */
 #videos {
@@ -506,20 +561,38 @@ table {
   text-align: center;
 }
 
-.videos-title {
+#videos h2 {
+  font-size: 1.5rem;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+#videos a {
+  color: #000;
+  text-decoration: none;
 }
 
-.videos-text {
-  margin-bottom: 40px;
+#videos a:hover {
+  color: #ffdb58;
+}
+
+.videos-intro {
+  margin-bottom: 100px;
+}
+
+.videos-intro h1 {
+  font-weight: 900;
+}
+
+.videos-intro p {
+  margin-top: 40px;
 }
 
 .youtube-video {
-  width: 100%;
-  min-height: 500px;
+  width: 75%;
   margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 0 0 10px;
 }
 
 /* ----------------------MOVIES PAGE------------------- */
@@ -529,6 +602,21 @@ table {
   padding-right: 3%;
   box-shadow: 0 70px 10px;
   overflow-y: hidden;
+}
+
+.movies-intro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.movies-intro h1 {
+  font-weight: 900;
+}
+
+.movies-intro p {
+  margin-top: 40px;
 }
 
 .movie-details {
@@ -569,11 +657,26 @@ table {
   color: #ffdb58;
 }
 
-/* ----------------------MOVIES PAGE------------------- */
+/* ----------------------TV SHOWS PAGE------------------- */
 #shows {
   margin: 0 10% 0 10%;
   box-shadow: 0 70px 10px;
   overflow-y: hidden;
+}
+
+.shows-intro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding: 0 10%;
+}
+
+.shows-intro h1 {
+  font-weight: 900;
+}
+
+.shows-intro p {
+  margin-top: 40px;
 }
 
 .show-details {
@@ -622,6 +725,14 @@ table {
   text-align: center;
 }
 
+.podcasts-intro {
+  margin-bottom: 100px;
+}
+
+.podcasts-intro h1 {
+  font-weight: 900;
+}
+
 .podcast-show {
   margin-bottom: 160px;
 }
@@ -634,10 +745,6 @@ table {
 .podcast-show p {
   font-size: 1.5rem;
 }
-
-/* .podcast-show span {
-  font-weight: 900;
-} */
 
 .podcast-show a {
   color: #ffdb58;
