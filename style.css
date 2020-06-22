@@ -386,7 +386,11 @@ body {
 /* ------------------------EDUCATE PAGE-------------------- */
 #options {
   text-align: center;
-  padding: 3% 2%;
+  padding: 10% 2%;
+}
+
+#options h1 {
+  font-weight: 900;
 }
 
 .media-type a {
@@ -453,16 +457,16 @@ body {
 }
 
 /* -----------------------------DONATE PAGE------------------------ */
-.donate-dropdown-item:active {
+.color-dropdown-item:active {
   background-color: #ffdb58;
   color: #000;
 }
 
-.donate-nav-link:hover {
+.color-nav-link:hover {
   color: #fff !important;
 }
 
-.donate-body {
+.color-body {
   background-color: #ffdb58;
 }
 
@@ -600,8 +604,6 @@ font-size: 1rem;
   margin: 0 10% 0 10%;
   padding-left: 3%;
   padding-right: 3%;
-  box-shadow: 0 70px 10px;
-  overflow-y: hidden;
 }
 
 .movies-intro {
@@ -660,8 +662,6 @@ font-size: 1rem;
 /* ----------------------TV SHOWS PAGE------------------- */
 #shows {
   margin: 0 10% 0 10%;
-  box-shadow: 0 70px 10px;
-  overflow-y: hidden;
 }
 
 .shows-intro {
@@ -755,4 +755,86 @@ font-size: 1rem;
 .podcast-show img {
   width: 25%;
   border-radius: 100%;
+}
+
+
+/* ------------------ APPS PAGE ------------------- */
+.color-body {
+  background-color: #ffdb58;
+}
+
+#apps {
+  padding: 10% 10%;
+  text-align: center;
+}
+
+.apps-intro {
+  margin-bottom: 200px;
+}
+
+.apps-intro h1 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.app {
+margin-bottom: 200px;
+}
+
+.app-text {
+  line-height: 2;
+}
+
+.app-name {
+  font-weight: 900;
+}
+
+.app-image {
+  width: 20%;
+  margin-bottom: 40px;
+}
+
+/* --------------------- SITES PAGE -------------------- */
+.color-body {
+  background-color: #ffdb58;
+}
+
+#sites {
+  padding: 10% 10%;
+  text-align: center;
+}
+
+.sites-intro {
+margin-bottom: 200px;
+}
+
+.sites-intro h1 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.site {
+margin-bottom: 200px;
+}
+
+.site-text {
+  line-height: 2;
+}
+
+.site-name {
+  font-weight: 900;
+}
+
+.site-image {
+  width: 20%;
+  margin-bottom: 40px;
+}
+
+.site a {
+  color: #000;
+  text-decoration: none;
+}
+
+.site a:hover {
+  color: #fff;
 }
