@@ -115,9 +115,9 @@ body {
   }
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1109px) {
   .title {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .sub-title {
@@ -125,17 +125,20 @@ body {
   }
 }
 
-@media screen and (max-width: 729px) {
+@media screen and (max-width: 968px) {
   .title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
-  .sub-title {
-    font-size: 1rem;
+}
+
+@media screen and (max-width: 830px) {
+  .title {
+    font-size: 2.5rem;
   }
 }
 
-@media screen and (max-width: 492px) {
+@media screen and (max-width: 687px) {
   .title {
     font-size: 2rem;
   }
@@ -143,6 +146,29 @@ body {
   .sub-title {
     font-size: 1rem;
   }
+
+}
+
+@media screen and (max-width: 556px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .sub-title {
+    font-size: .75rem;
+  }
+
 }
 
 .outside-squares1 {
@@ -237,6 +263,24 @@ body {
   font-weight: 900;
   font-size: 3rem;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width:855px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:702px) {
+  .about-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width:420px) {
+  .about-title {
+    font-size: 1.25rem;
+  }
 }
 
 .about-text {
@@ -393,7 +437,7 @@ font-size: 1rem;
 /* ------------------------EDUCATE PAGE-------------------- */
 #options {
   text-align: center;
-  padding: 0 4%;
+  padding: 0 6%;
 }
 
 .educate-intro {
@@ -404,6 +448,36 @@ font-size: 1rem;
 .educate-intro h1 {
   font-weight: 900;
   font-size: 4rem;
+}
+
+@media screen and (max-width:1310px) {
+  .educate-intro h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:1152px) {
+  .educate-intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:988px) {
+  .educate-intro h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:828px) {
+  .educate-intro h1 {
+    font-size: 2rem;
+  }
+}
+
+.media-type {
+  padding-left: 5%;
+padding-right: 5%;
+
 }
 
 .media-type a {
@@ -435,6 +509,44 @@ font-size: 1rem;
 .books-intro h1 {
   font-weight: 900;
   font-size: 4rem;
+}
+
+
+@media screen and (max-width:454px) {
+  #books {
+    text-align: center;
+    padding: 10% 4%;
+  }
+}
+
+@media screen and (max-width:364px) {
+  #books {
+    text-align: center;
+    padding: 10% 5%;
+  }
+}
+
+@media screen and (max-width:632px) {
+  .books-intro h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:522px) {
+  .books-intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:442px) {
+  .books-intro h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width:368px) {
+  .books-intro h1 {
+    font-size: 2rem;
+  }
 }
 
 .books-intro {
@@ -483,12 +595,47 @@ padding: 100px 0 50px 0;
   padding: 0 3%;
 }
 
+@media screen and (max-width:422px) {
+#donate {
+  padding: 0 5%;
+}
+}
+
 .donate-title {
   margin-bottom: 100px;
   font-weight: 900;
   font-size: 4rem;
   padding: 100px 0 50px 0;
   text-align: center;
+}
+@media screen and (max-width:1370px) {
+.donate-title {
+  font-size: 3.5rem;
+}
+}
+
+@media screen and (max-width:1179px) {
+.donate-title {
+  font-size: 3rem;
+}
+}
+
+@media screen and (max-width:1012px) {
+.donate-title {
+  font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width:905px) {
+.donate-title {
+  font-size: 2rem;
+}
+}
+
+@media screen and (max-width:682px) {
+.donate-title {
+  font-size: 1.5rem;
+}
 }
 
 .donate-link {
@@ -507,11 +654,20 @@ padding: 100px 0 50px 0;
 .donate-link h3 {
   font-weight: bold;
 }
-
+@media screen and (max-width:905px) {
+  .donate-link h3 {
+    font-size:
+  }
+}
 /* ---------------------ARTICLES PAGE--------------------- */
 #articles {
   padding: 10% 4% 10% 10%;
   text-align: center;
+}
+@media screen and (max-width:366px) {
+  #articles {
+    padding: 10% 5% 10% 11%;
+  }
 }
 
 .articles-title {
@@ -522,6 +678,30 @@ padding: 100px 0 50px 0;
   font-weight: 900;
   font-size: 4rem;
   padding: 100px 0 50px 0;
+}
+
+@media screen and (max-width:687px) {
+  .articles-title h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:594px) {
+  .articles-title h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:512px) {
+  .articles-title h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:433px) {
+  .articles-title h1 {
+    font-size: 2rem;
+  }
 }
 
 #articles h3 {
@@ -577,6 +757,12 @@ font-size: 1rem;
   padding: 10% 2%;
   text-align: center;
 }
+@media screen and (max-width:699px) {
+#videos {
+  padding-right: 4%;
+  padding-left: 4%;
+}
+}
 
 #videos h2 {
   font-size: 1.5rem;
@@ -584,6 +770,13 @@ font-size: 1rem;
   margin-bottom: 60px;
   margin-top: 20px;
 }
+
+@media screen and (max-width:586px) {
+#videos h2 {
+  font-size: 1.25rem;
+}
+}
+
 #videos a {
   color: #000;
   text-decoration: none;
@@ -596,6 +789,30 @@ font-size: 1rem;
 .videos-intro h1 {
   font-weight: 900;
   font-size: 4rem;
+}
+
+@media screen and (max-width:699px) {
+  .videos-intro h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:602px) {
+  .videos-intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:521px) {
+  .videos-intro h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:421px) {
+  .videos-intro h1 {
+    font-size: 2rem;
+  }
 }
 
 .videos-intro  {
@@ -627,6 +844,29 @@ font-size: 1rem;
   font-size: 4rem;
 }
 
+@media screen and (max-width:696px) {
+  .movies-intro h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:592px) {
+  .movies-intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:517px) {
+  .movies-intro h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width:431px) {
+  .movies-intro h1 {
+    font-size: 2rem;
+  }
+}
+
 .movie-details {
   padding: 15% 0;
   margin-bottom: 20px;
@@ -644,6 +884,23 @@ font-size: 1rem;
   width: 20%;
   margin-left: 20px;
   box-shadow: 0 0 5px;
+}
+
+
+@media screen and (max-width:1042px) {
+  .movie-image-1 {
+    float: none;
+    width: 30%;
+      margin-right: 20px;
+    box-shadow: 0 0 5px;
+  }
+
+  .movie-image-2 {
+    float: none;
+    width: 30%;
+    margin-left: 20px;
+    box-shadow: 0 0 5px;
+}
 }
 
 .movie-title {
@@ -683,6 +940,29 @@ font-size: 1rem;
   font-size: 4rem;
 }
 
+@media screen and (max-width:696px) {
+  .shows-intro h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:592px) {
+  .shows-intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:517px) {
+  .shows-intro h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width:431px) {
+  .shows-intro h1 {
+    font-size: 2rem;
+  }
+}
+
 .show-details {
   padding: 15% 0;
   margin-bottom: 20px;
@@ -702,6 +982,23 @@ font-size: 1rem;
   margin-left: 20px;
   margin-right: 20px;
   box-shadow: 0 0 5px;
+}
+
+
+@media screen and (max-width:1042px) {
+  .show-image-1 {
+    float: none;
+    width: 30%;
+      margin-right: 20px;
+    box-shadow: 0 0 5px;
+  }
+
+  .show-image-2 {
+    float: none;
+    width: 30%;
+    margin-left: 20px;
+    box-shadow: 0 0 5px;
+}
 }
 
 .show-title {
@@ -727,7 +1024,7 @@ font-size: 1rem;
 
 /* -----------------------PODCASTS PAGE------------------------- */
 #podcasts {
-  padding: 0 15%;
+  padding: 10% 20%;
   text-align: center;
 }
 
@@ -739,6 +1036,36 @@ padding: 100px 0 50px 0;
 .podcasts-intro h1 {
   font-weight: 900;
   font-size: 4rem;
+}
+
+@media screen and (max-width:807px) {
+.podcasts-intro h1 {
+  font-size: 3.5rem;
+}
+}
+
+@media screen and (max-width:675px) {
+.podcasts-intro h1 {
+  font-size: 3rem;
+}
+}
+
+@media screen and (max-width:588px) {
+.podcasts-intro h1 {
+  font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width:482px) {
+.podcasts-intro h1 {
+  font-size: 2rem;
+}
+}
+
+@media screen and (max-width:385px) {
+.podcasts-intro h1 {
+  font-size: 1.75rem;
+}
 }
 
 #podcasts hr {
@@ -756,6 +1083,22 @@ padding: 100px 0 50px 0;
 .podcast-show p {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width:618px) {
+  .podcast-show h2 {
+    font-size: 2rem;
+  }
+  .podcast-show p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:499px) {
+  .podcast-show h2 {
+    font-size: 1.5rem;
+  }
+}
+
 
 .podcast-show a {
   color: #ffd51e;
@@ -786,6 +1129,31 @@ padding: 100px 0 50px 0;
   font-weight: 900;
   font-size: 4rem;
 }
+
+@media screen and (max-width:789px) {
+.apps-intro h1 {
+  font-size: 3.5rem;
+}
+}
+
+@media screen and (max-width:677px) {
+.apps-intro h1 {
+  font-size: 3rem;
+}
+}
+
+@media screen and (max-width:579px) {
+.apps-intro h1 {
+  font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width:492px) {
+.apps-intro h1 {
+  font-size: 2rem;
+}
+}
+
 
 .iphone-img {
   width: 20%;
@@ -822,6 +1190,8 @@ padding: 100px 0 50px 0;
   margin-bottom: 40px;
 }
 
+
+
 /* --------------------- SITES PAGE -------------------- */
 #sites {
   padding: 15% 20% 10% 20%;
@@ -836,6 +1206,30 @@ text-align: center;
 .sites-intro h1 {
   font-weight: 900;
 font-size: 4rem;
+}
+
+@media screen and (max-width:695px) {
+.sites-intro h1 {
+  font-size: 3.5rem;
+}
+}
+
+@media screen and (max-width:600px) {
+.sites-intro h1 {
+  font-size: 3rem;
+}
+}
+
+@media screen and (max-width:520px) {
+.sites-intro h1 {
+  font-size: 2.5rem;
+}
+}
+
+@media screen and (max-width:462px) {
+.sites-intro h1 {
+  font-size: 2rem;
+}
 }
 
 .sample-site-img {
@@ -874,6 +1268,18 @@ font-size: 4rem;
   color: #ffd51e;
 }
 
+@media screen and (max-width:808px) {
+.insta-follow {
+  font-size: 1.25rem;
+}
+}
+
+@media screen and (max-width:336px) {
+.insta-follow {
+  font-size: 1rem;
+}
+}
+
 /* --------------------- POEMS PAGE ---------------------- */
 
 
@@ -887,8 +1293,48 @@ font-weight: 900;
 font-size: 4rem;
 }
 
+@media screen and (max-width:600px) {
+  .poems-intro h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width:519px) {
+  .poems-intro h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width:447px) {
+  .poems-intro h1 {
+    font-size: 2.5rem;
+  }
+}
+
 .carousel-item {
   padding: 10% 25%;
+}
+
+@media screen and (max-width:928px) {
+  .carousel-item {
+    padding: 10% 10%;
+  }
+
+.full-poem h2 {
+  padding-right: 2%;
+}
+}
+
+@media screen and (max-width:545px) {
+  .carousel-item {
+    padding: 10% 5%;
+  }
+}
+
+@media screen and (max-width:402px) {
+  .carousel-item {
+    padding: 10% 2%;
+  }
 }
 
 .tab {
@@ -905,6 +1351,12 @@ width: 100%;
 box-shadow: 0 .5rem 1rem rgba(30,30,30,.15)
 }
 
+@media screen and (max-width:442px) {
+.full-poem p {
+  font-size: 0.90rem;
+}
+}
+
 .poem-author {
   color: grey;
 }
@@ -915,6 +1367,16 @@ box-shadow: 0 .5rem 1rem rgba(30,30,30,.15)
 
  .carousel-control-next-icon {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width:628px) {
+.carousel-control-prev {
+width: 5%;
+}
+
+  .carousel-control-next {
+  width: 5%;
+  }
 }
 
 /* ------------------- SUPPORT PAGE ----------------------- */
