@@ -95,6 +95,29 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 1024px) {
+  #home {
+    padding: 50% 15%;
+  }
+}
+@media screen and (max-width: 414px) {
+  #home {
+    padding: 70% 15%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #home {
+    padding: 85% 15%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #home {
+    padding: 90% 15%;
+  }
+}
+
 .title {
   color: #ffd51e;
   font-size: 5rem;
@@ -107,6 +130,16 @@ body {
 
 @media screen and (max-width: 1453px) {
   .title {
+    font-size: 4.25rem;
+  }
+
+  .sub-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 1171px) {
+  .title {
     font-size: 4rem;
   }
 
@@ -115,60 +148,106 @@ body {
   }
 }
 
-@media screen and (max-width: 1109px) {
+@media screen and (max-width: 1115px) {
+  .title {
+    font-size: 3.75rem;
+  }
+
+}
+
+@media screen and (max-width: 1031px) {
   .title {
     font-size: 3.5rem;
   }
-
-  .sub-title {
-    font-size: 1.5rem;
-  }
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 967px) {
+  .title {
+    font-size: 3.25rem;
+  }
+
+  .sub-title {
+    font-size: 1.75rem;
+  }
+
+}
+
+@media screen and (max-width: 891px) {
   .title {
     font-size: 3rem;
   }
 
-}
-
-@media screen and (max-width: 830px) {
-  .title {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-width: 687px) {
-  .title {
-    font-size: 2rem;
-  }
-
   .sub-title {
-    font-size: 1rem;
-  }
-
-}
-
-@media screen and (max-width: 556px) {
-  .title {
     font-size: 1.5rem;
   }
 
+}
+
+@media screen and (max-width: 831px) {
+  .title {
+    font-size: 2.75rem;
+  }
+
+  .sub-title {
+    font-size: 1.25rem;
+  }
+
+}
+
+@media screen and (max-width: 751px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
   .sub-title {
     font-size: 1rem;
   }
 
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 679px) {
   .title {
-    font-size: 1.25rem;
+    font-size: 2.25rem;
   }
 
   .sub-title {
     font-size: .75rem;
   }
 
+}
+
+@media screen and (max-width: 623px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 547px) {
+  .title {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 344px) {
+  .title {
+    font-size: 1rem;
+  }
+
+  .sub-title {
+    font-size: .5rem;
+  }
 }
 
 .outside-squares1 {
@@ -189,7 +268,7 @@ body {
   color: #000;
   font-weight: 900;
   padding: 0;
-  margin: 10px 0 10px 0;
+  margin: 25px 0 25px 0;
 }
 
 /* td {
@@ -207,7 +286,7 @@ body {
 #names {
   margin: 6% 0;
   text-align: center;
-  padding: 1% 1%;
+  padding: 2% 1%;
   background-color: #ffd51e;
 }
 
@@ -223,6 +302,13 @@ body {
     font-size: .75rem;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .small-names-table td {
+    line-height: 1.75;
+  }
+}
+
 
 @media screen and (max-width: 1001px) {
   .small-names-table td {
@@ -265,10 +351,26 @@ body {
   margin-bottom: 20px;
 }
 
+
+@media screen and (max-width:1024px) {
+  .about-title {
+    margin-bottom: 60px;
+  }
+  #about {
+padding: 7% 15% 13% 15%;
+  }
+}
+
 @media screen and (max-width:855px) {
   .about-title {
     font-size: 2.5rem;
   }
+}
+
+@media screen and (max-width:767px) {
+#about {
+  padding: 7% 5% 13% 5%;
+}
 }
 
 @media screen and (max-width:702px) {
@@ -285,6 +387,13 @@ body {
 
 .about-text {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+
+  .about-text {
+    font-size: .75rem;
+  }
 }
 
 #goal {
@@ -314,11 +423,25 @@ body {
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width:855px) {
+  .goal-title {
+    font-size: 2.5rem;
+  }
+}
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width:702px) {
   .goal-title {
     font-size: 1.5rem;
   }
+}
+
+@media screen and (max-width:420px) {
+  .goal-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
 
   .goal-text {
     font-size: .75rem;
@@ -395,19 +518,24 @@ font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 750px) {
-  .contact-title {
-    font-size: 1.5rem;
-  }
+@media screen and (max-width: 767px) {
 
   .feedback {
     font-size: .75rem;
   }
 
-  .email-text {
-    font-size: 1rem;
+  .email-text-2 {
+      font-size: .75rem;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .contact-title {
+    font-size: 1.5rem;
+  }
+}
+
+
 
 @media screen and (max-width: 575px) {
   #contact {
@@ -494,6 +622,19 @@ padding-right: 5%;
 }
 
 .media-icon {
+  width: 25%;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.media-icon-v {
+  width: 9%;
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width:991px) {
+.media-icon-v {
   width: 25%;
   margin-top: 150px;
   margin-bottom: 40px;
