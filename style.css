@@ -90,7 +90,7 @@ body {
 }
 
 #home {
-  padding: 11% 15%;
+  padding: 14% 19%;
   text-align: center;
   position: relative;
 }
@@ -264,13 +264,97 @@ body {
 }
 
 #heading {
-  font-size: 3rem;
+  font-size: 5rem;
   color: #000;
   font-weight: 900;
   padding: 0;
   margin: 25px 0 25px 0;
 }
 
+
+@media screen and (max-width: 1453px) {
+  #heading {
+    font-size: 4.25rem;
+  }
+}
+
+@media screen and (max-width: 1171px) {
+  #heading {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  #heading {
+    font-size: 3.75rem;
+  }
+}
+
+@media screen and (max-width: 1031px) {
+  #heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  #heading {
+    font-size: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  #heading {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 831px) {
+  #heading {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  #heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 679px) {
+  #heading {
+    font-size: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 623px) {
+  #heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 547px) {
+#heading {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+#heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  #heading {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 344px) {
+#heading {
+    font-size: 1rem;
+  }
+}
 /* td {
   border: 1px solid pink;
 } */
@@ -292,7 +376,6 @@ body {
 
 .small-names-table td {
   padding: 0;
-  width: 15%;
   font-size: .90rem;
   font-weight: 600;
 }
@@ -314,29 +397,17 @@ body {
   .small-names-table td {
     font-size: .50rem;
   }
-
-  #heading {
-    font-size: 2.25rem;
-  }
 }
 
 @media screen and (max-width: 753px) {
   .small-names-table td {
     font-size: .45rem;
   }
-
-  #heading {
-    font-size: 1.5rem;
-  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
   .small-names-table td {
     font-size: .32rem;
-  }
-
-  #heading {
-    font-size: 1.5rem;
   }
 }
 #about {
